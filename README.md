@@ -8,13 +8,13 @@ After file uploaded, file will be removed from system.
 
 ### Prerequisites
 
-To run this app, you need to following pre-installed.
+To run this app, you need following pre-installed.
 
 - Python 3.x and pip
   - Pre-installed on most Linux and mac
-  - Download from [Python website](httpd://www.python.org/getit/) for windows
+  - Download from [Python website](http://www.python.org/getit/) for windows
 
-- Google API Credentials
+Create Google API Credentials
   - Create a project in [Google Developers Console](https://console.cloud.google.com/)
   - Create Credentials. Press on the burger menu in the toolbar and select "APIs and Services > Credentials".
 
