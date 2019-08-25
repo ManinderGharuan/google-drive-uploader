@@ -24,7 +24,7 @@ John likes to upload another link. So he again executes the program and provide 
 ## TODOS
 
 * [X] Download content from url using wget
-* [ ] Do authentication using Google Auth
+* [X] Do authentication using Google Auth
 * [ ] Upload file using Google Drive
 * [ ] Save user credentials
 * [ ] When credentials already saved then ask user to re-authenticate or upload to previous account

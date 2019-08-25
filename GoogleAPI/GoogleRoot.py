@@ -1,3 +1,5 @@
+from pydrive.auth import GoogleAuth
+
 class GoogleRoot():
   """
   Root methods of google api
@@ -8,5 +10,6 @@ class GoogleRoot():
     Do google authentication using pydrive
     Returns gauth
     """
-    # todo
-    pass
+    gauth = GoogleAuth()
+
+    return gauth
