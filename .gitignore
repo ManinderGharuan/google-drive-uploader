@@ -1,0 +1,7 @@
+__pycache__
+
+# Secrets for google api
+client_secret.json
+client_secrets.json
+
+Downloader/content/
