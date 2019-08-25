@@ -25,7 +25,7 @@ John likes to upload another link. So he again executes the program and provide 
 
 * [X] Download content from url using wget
 * [X] Do authentication using Google Auth
-* [ ] Upload file using Google Drive
+* [X] Upload file using Google Drive
 * [ ] Save user credentials
 * [ ] When credentials already saved then ask user to re-authenticate or upload to previous account
 * [ ] Update readme

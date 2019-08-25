@@ -1,3 +1,6 @@
+from os.path import basename
+from pydrive.drive import GoogleDrive as Drive
+
 from .GoogleRoot import GoogleRoot
 
 class GoogleDrive(GoogleRoot):
@@ -16,8 +19,11 @@ class GoogleDrive(GoogleRoot):
     if gauth is None:
       gauth = self.authentication()
 
-    # TODO
-    # Process to upload file
+    drive = Drive(gauth)
+
+    file = drive.CreateFile({'title': basename(fileMetadata)})
+    file.SetContentFile(fileMetadata)
+    file.Upload()
 
     print()
     print("File Uploaded successfully")
