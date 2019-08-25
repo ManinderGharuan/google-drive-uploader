@@ -1,4 +1,5 @@
 from os import path, mkdir, remove
+from wget import download
 
 class RootDownloader():
   """
@@ -31,8 +32,20 @@ class RootDownloader():
     Download content from url 
     returns path of the files
     """
-    # TODO
-    pass
+    url = self.get_link()
+    download_path = self.get_download_path()
+    local_url = None
+
+    try:
+      print()
+      print("Downloading Content...")
+
+      local_url = download(url, out=download_path)
+    except Exception as error:
+      print("Faild to download: ", url)
+      print(error)
+
+    return local_url
 
   def delete_file(self, path_to_file):
     """

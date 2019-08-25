@@ -1,7 +1,7 @@
 # Google Drive Uploader
 
-Automatically downloads file from link and upload to google drive
-After file uploaded file will be removed from system
+Automatically downloads file from link and upload to google drive.
+After file uploaded file will be removed from system.
 
 ## Setup
 
@@ -23,7 +23,7 @@ John likes to upload another link. So he again executes the program and provide 
 
 ## TODOS
 
-* [ ] Download content from url using wget
+* [X] Download content from url using wget
 * [ ] Do authentication using Google Auth
 * [ ] Upload file using Google Drive
 * [ ] Save user credentials
