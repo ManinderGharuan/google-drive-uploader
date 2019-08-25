@@ -15,11 +15,13 @@ $ pip install -r ./requirements.txt
 
 #### John
 
-John executes the program, and terminal will ask for direct url to upload on google drive. After providing direct link John's default browser will opens with a page of google authentication. He will login with his account in which he want to upload and give the permissions.
+John executes the program, and terminal will ask for direct url to upload on google drive. After providing direct link a progress bar will appear.
 
-John will see progress bar of the program. After a while teminal stops with "File Uploaded Successfully" message.
+After download completion John's default browser will opens with a page of google authentication. He will login with his account in which he want to upload and google will ask for permissions.
 
-John likes to upload another link. So he again executes the program and provide link. His authentication is already completed, so he will see progress bar and termial stops with "File Uploaded Successfully" message.
+After a while terminal stops with message "File Uploaded successfully" and "File removed successfully.
+
+John likes to upload another link. So he again executes the program and provide link. His authentication is already completed, so he will see progress bar and terminal stops with message "File Uploaded successfully" and "File removed successfully.
 
 ## TODOS
 
